@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/us74dd7nqdy2ir4/Hot_Dog_Model.pkl?dl=0'
+export_file_url = 'https://www.dropbox.com/s/us74dd7nqdy2ir4/Hot_Dog_Model.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['Hotdog', 'Not hotdog']
